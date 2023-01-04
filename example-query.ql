@@ -7,14 +7,12 @@ from BinaryExpr expr, CompileTimeConstantExpr const
 // --------------------
 where
     // Constrain "expr" to shift operands (5 points)
-    (expr instanceof ...) and
+    (expr instanceof AddExpr)
 
     // Constrain "const" to be the right operand of "expr" (5 points)
     // Note that "=" is the comparison operator
-    ... and
 
     // Constrain the value of "const" to be negative or greater than 31 (5 points)
-    (... or ...)
 
     // Running this query after implementing the three above constraints should
     // give you 19 results, however not all of these are errors because longs
