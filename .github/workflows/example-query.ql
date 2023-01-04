@@ -1,7 +1,6 @@
 /**
  * @name Cast expressions
  * @description Finds casts from a floating point type to an integer type
- * @kind problem
  */
 
 import java
