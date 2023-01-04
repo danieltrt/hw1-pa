@@ -1,2 +1,3 @@
 queries:
-  - uses: ./example-query.ql
+  - uses: ./.github/workflows/example-query.ql
+
